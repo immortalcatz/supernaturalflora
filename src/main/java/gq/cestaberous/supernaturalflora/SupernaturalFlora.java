@@ -121,12 +121,12 @@ public class SupernaturalFlora {
 		GameRegistry.addRecipe(new ItemStack(itemAwakeningSkeleton, 3), "BPB", " M ", "   ", 'B', itemBonePile, 'P', Items.potionitem, 'M', itemSoulMedium);
 		GameRegistry.addRecipe(new ItemStack(itemAwakeningBlaze, 3), "FPF", " M ", "   ", 'F', itemFireEssence, 'P', Items.potionitem, 'M', itemSoulMedium);
 		GameRegistry.addRecipe(new ItemStack(itemLifePotion, 3), "EPS", "   ", "   ", 'E', Items.egg, 'P', Items.potionitem, 'S', itemSoulMedium);
-		GameRegistry.addRecipe(new ItemStack(Items.spawn_egg, 3, 58), "GMG", " M ", 'M', itemSoulMedium, 'G', blockDeadSoilEnderman);
-		GameRegistry.addRecipe(new ItemStack(Items.spawn_egg, 3, 56), "GMG", " M ", 'M', itemSoulMedium, 'G', blockDeadSoilGhast);
-		GameRegistry.addRecipe(new ItemStack(Items.spawn_egg, 3, 54), "GMG", " M ", 'M', itemSoulMedium, 'G', blockDeadSoilZombie);
-		GameRegistry.addRecipe(new ItemStack(Items.spawn_egg, 3, 50), "GMG", " M ", 'M', itemSoulMedium, 'G', blockDeadSoilCreeper);
-		GameRegistry.addRecipe(new ItemStack(Items.spawn_egg, 3, 51), "GMG", " M ", 'M', itemSoulMedium, 'G', blockDeadSoilSkeleton);
-		GameRegistry.addRecipe(new ItemStack(Items.spawn_egg, 3, 61), "GMG", " M ", 'M', itemSoulMedium, 'G', blockDeadSoilBlaze);
+		GameRegistry.addRecipe(new ItemStack(Items.spawn_egg, 3, 58), "GMG", " M ", " S ", 'S', itemSiftingNet, 'M', itemSoulMedium, 'G', blockDeadSoilEnderman);
+		GameRegistry.addRecipe(new ItemStack(Items.spawn_egg, 3, 56), "GMG", " M ", " S ", 'S', itemSiftingNet, 'M', itemSoulMedium, 'G', blockDeadSoilGhast);
+		GameRegistry.addRecipe(new ItemStack(Items.spawn_egg, 3, 54), "GMG", " M ", " S ", 'S', itemSiftingNet, 'M', itemSoulMedium, 'G', blockDeadSoilZombie);
+		GameRegistry.addRecipe(new ItemStack(Items.spawn_egg, 3, 50), "GMG", " M ", " S ", 'S', itemSiftingNet, 'M', itemSoulMedium, 'G', blockDeadSoilCreeper);
+		GameRegistry.addRecipe(new ItemStack(Items.spawn_egg, 3, 51), "GMG", " M ", " S ", 'S', itemSiftingNet, 'M', itemSoulMedium, 'G', blockDeadSoilSkeleton);
+		GameRegistry.addRecipe(new ItemStack(Items.spawn_egg, 3, 61), "GMG", " M ", " S ", 'S', itemSiftingNet, 'M', itemSoulMedium, 'G', blockDeadSoilBlaze);
 		GameRegistry.addRecipe(new ItemStack(itemSiftingNet, 6), "SSS", "SSS", 'S', Items.string);
 		//blocks
 		GameRegistry.addRecipe(new ItemStack(blockDeadSoilEnderman, 5), "EGS", " M ", "   ", 'E', itemEndSight, 'G', blockGraveyardSoil, 'S', itemLifePotion, 'M', itemSoulMedium);
