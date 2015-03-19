@@ -3,3 +3,44 @@
 [16:26:55] [Client thread/ERROR]: Couldn't initialize twitch stream
 [16:27:14] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Supernatural Flora
 [16:27:17] [Sound Library Loader/INFO]: Sound engine started
+[16:27:23] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[16:27:24] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[16:27:24] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Supernatural Flora
+[16:27:26] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[16:27:26] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[16:27:27] [Sound Library Loader/INFO]: Sound engine started
+[16:28:05] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[16:28:05] [Server thread/INFO]: Generating keypair
+[16:28:08] [Server thread/INFO]: Preparing start region for level 0
+[16:28:09] [Server thread/INFO]: Preparing spawn area: 4%
+[16:28:10] [Server thread/INFO]: Preparing spawn area: 12%
+[16:28:11] [Server thread/INFO]: Preparing spawn area: 18%
+[16:28:12] [Server thread/INFO]: Preparing spawn area: 38%
+[16:28:13] [Server thread/INFO]: Preparing spawn area: 55%
+[16:28:14] [Server thread/INFO]: Preparing spawn area: 73%
+[16:28:15] [Server thread/INFO]: Preparing spawn area: 99%
+[16:28:16] [Server thread/INFO]: Changing view distance to 2, from 10
+[16:28:17] [Server thread/INFO]: Player541[local:E:7d06eee1] logged in with entity id 211 at (-4.718943257223014, 69.0, 264.282593233214)
+[16:28:17] [Server thread/INFO]: Player541 joined the game
+[16:28:19] [Server thread/INFO]: Saving and pausing game...
+[16:28:19] [Server thread/INFO]: Saving chunks for level 'The Lab'/Overworld
+[16:28:20] [Server thread/INFO]: Saving chunks for level 'The Lab'/Nether
+[16:28:20] [Server thread/INFO]: Saving chunks for level 'The Lab'/The End
+[16:28:20] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3766ms behind, skipping 75 tick(s)
+[16:28:37] [Server thread/INFO]: [Player541: Toggled downfall]
+[16:28:37] [Client thread/INFO]: [CHAT] Toggled downfall
+[16:28:42] [Server thread/INFO]: [Player541: Set the time to 1000]
+[16:28:42] [Client thread/INFO]: [CHAT] Set the time to 1000
+[16:28:44] [Server thread/INFO]: Player541 has just earned the achievement [Taking Inventory]
+[16:28:44] [Client thread/INFO]: [CHAT] Player541 has just earned the achievement [Taking Inventory]
+[16:29:52] [Server thread/INFO]: Saving and pausing game...
+[16:29:52] [Server thread/INFO]: Saving chunks for level 'The Lab'/Overworld
+[16:29:52] [Server thread/INFO]: Saving chunks for level 'The Lab'/Nether
+[16:29:52] [Server thread/INFO]: Saving chunks for level 'The Lab'/The End
+[16:30:17] [Server thread/INFO]: Stopping server
+[16:30:17] [Server thread/INFO]: Saving players
+[16:30:17] [Server thread/INFO]: Saving worlds
+[16:30:17] [Server thread/INFO]: Saving chunks for level 'The Lab'/Overworld
+[16:30:17] [Server thread/INFO]: Saving chunks for level 'The Lab'/Nether
+[16:30:17] [Server thread/INFO]: Saving chunks for level 'The Lab'/The End
+[16:30:19] [Client thread/INFO]: Stopping!
