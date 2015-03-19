@@ -1,0 +1,92 @@
+package gq.cestaberous.supernaturalflora;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.item.Item;
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
+
+@Mod(modid = "snf", name = "Supernatural Flora", version = "1.0")
+public class SupernaturalFlora {
+	
+	//item vars
+	public static Item itemEndSight;
+	public static Item itemTearVial;
+	public static Item itemCondensedFlesh;
+	public static Item itemPureGunpowder;
+	public static Item itemBonePile;
+	public static Item itemFireEssence;
+	public static Item itemAwakeningCreeper;
+	public static Item itemAwakeningZombie;
+	public static Item itemAwakeningSkeleton;
+	public static Item itemAwakeningBlaze;
+	public static Item itemAwakeningGhast;
+	public static Item itemAwakeningEnderman;
+
+	
+	//block vars
+	public static Block blockGraveyardSoil;
+	public static Block blockDeadSoilCreeper;
+	public static Block blockDeadSoilZombie;
+	public static Block blockDeadSoilSkeleton;
+	
+	@EventHandler
+	public void preInit(FMLPreInitializationEvent event){
+		//block and item registry and init; Furnace recipes
+		//item init
+		itemEndSight = new ItemEndSight().setUnlocalizedName("ItemEndSight").setTextureName("snf:itemendsight");
+		itemTearVial = new ItemTearVial().setUnlocalizedName("ItemTearVial").setTextureName("snf:itemtearvial");
+		itemCondensedFlesh = new ItemCondensedFlesh().setUnlocalizedName("ItemCondensedFlesh").setTextureName("snf:itemcondensedflesh");
+		itemPureGunpowder = new ItemPureGunpowder().setUnlocalizedName("ItemPureGunpowder").setTextureName("snf:itempuregunpowder");
+		itemBonePile = new ItemBonePile().setUnlocalizedName("ItemBonePile").setTextureName("snf:itembonepile");
+		itemFireEssence = new ItemFireEssence().setUnlocalizedName("ItemFireEssence").setTextureName("snf:itemfireessence");
+		itemAwakeningCreeper = new ItemAwakeningCreeper().setUnlocalizedName("ItemAwakeningCreeper").setTextureName("snf:itemawakening");
+		itemAwakeningZombie = new ItemAwakeningZombie().setUnlocalizedName("ItemAwakeningZombie").setTextureName("snf:itemawakening");
+		itemAwakeningSkeleton = new ItemAwakeningSkeleton().setUnlocalizedName("ItemAwakeningSkeleton").setTextureName("snf:itemawakening");
+		itemAwakeningBlaze = new ItemAwakeningBlaze().setUnlocalizedName("ItemAwakeningBlaze").setTextureName("snf:itemawakening");
+		itemAwakeningGhast = new ItemAwakeningGhast().setUnlocalizedName("ItemAwakeningGhast").setTextureName("snf:itemawakening");
+		itemAwakeningEnderman = new ItemAwakeningEnderman().setUnlocalizedName("ItemAwakeningEnderman").setTextureName("snf:itemawakening");
+		
+		//block init
+		blockGraveyardSoil = new BlockGraveyardSoil(Material.grass).setBlockName("BlockGraveyardSoil").setBlockTextureName("snf:blockgraveyardsoil");
+		blockDeadSoilCreeper = new BlockDeadSoilCreeper(Material.grass).setBlockName("BlockDeadSoilCreeper").setBlockTextureName("snf:blockdeadsoilcreeper");
+		blockDeadSoilZombie = new BlockDeadSoilZombie(Material.grass).setBlockName("BlockDeadSoilZombie").setBlockTextureName("snf:blockdeadsoilzombie");
+		blockDeadSoilSkeleton = new BlockDeadSoilSkeleton(Material.grass).setBlockName("BlockDeadSoilSkeleton").setBlockTextureName("snf:blockdeadsoilskeleton");
+				
+		//item registry
+		GameRegistry.registerItem(itemEndSight, itemEndSight.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(itemTearVial, itemTearVial.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(itemCondensedFlesh, itemCondensedFlesh.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(itemPureGunpowder, itemPureGunpowder.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(itemBonePile, itemBonePile.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(itemFireEssence, itemFireEssence.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(itemAwakeningCreeper, itemAwakeningCreeper.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(itemAwakeningZombie, itemAwakeningZombie.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(itemAwakeningSkeleton, itemAwakeningSkeleton.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(itemAwakeningBlaze, itemAwakeningBlaze.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(itemAwakeningGhast, itemAwakeningGhast.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(itemAwakeningEnderman, itemAwakeningEnderman.getUnlocalizedName().substring(5));
+		
+		//block registry
+		GameRegistry.registerBlock(blockGraveyardSoil, blockGraveyardSoil.getUnlocalizedName().substring(5));
+		GameRegistry.registerBlock(blockDeadSoilCreeper, blockDeadSoilCreeper.getUnlocalizedName().substring(5));
+		GameRegistry.registerBlock(blockDeadSoilZombie, blockDeadSoilZombie.getUnlocalizedName().substring(5));
+		GameRegistry.registerBlock(blockDeadSoilSkeleton, blockDeadSoilSkeleton.getUnlocalizedName().substring(5));
+		
+	}
+		
+	@EventHandler
+	public void init(FMLInitializationEvent event){
+		//proxy, tile entity, entity, GUI, packet init and handling
+		//recipes
+	}
+	
+	@EventHandler
+	public void postInit(FMLPostInitializationEvent event){
+		
+	}
+}

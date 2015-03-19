@@ -1,0 +1,5 @@
+[16:26:46] [main/INFO]: Setting user: Player541
+[16:26:53] [Client thread/INFO]: LWJGL Version: 2.9.1
+[16:26:55] [Client thread/ERROR]: Couldn't initialize twitch stream
+[16:27:14] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Supernatural Flora
+[16:27:17] [Sound Library Loader/INFO]: Sound engine started
