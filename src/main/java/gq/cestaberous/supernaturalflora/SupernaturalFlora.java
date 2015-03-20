@@ -151,7 +151,7 @@ public class SupernaturalFlora {
 		GameRegistry.addRecipe(new ItemStack(Items.spawn_egg, 3, 51), "GMG", " M ", " S ", 'S', itemSiftingNet, 'M', itemSoulMedium, 'G', blockDeadSoilSkeleton);
 		GameRegistry.addRecipe(new ItemStack(Items.spawn_egg, 3, 61), "GMG", " M ", " S ", 'S', itemSiftingNet, 'M', itemSoulMedium, 'G', blockDeadSoilBlaze);
 		GameRegistry.addRecipe(new ItemStack(itemSiftingNet, 6), "SSS", "SSS", 'S', Items.string);
-		GameRegistry.addRecipe(new ItemStack(itemIronShard, 9), "I", 'I', Items.iron_ingot);
+		GameRegistry.addRecipe(new ItemStack(itemIronShard, 9), "I", "D", 'D', itemEtherealDivisor, 'I', Items.iron_ingot);
 		GameRegistry.addRecipe(new ItemStack(itemEtherealDivisor, 2), "IM", 'I', itemIronShard, 'M', itemSoulMedium);
 		GameRegistry.addRecipe(new ItemStack(itemEtherealDivisor, 2), "I", "M", 'I', itemIronShard, 'M', itemSoulMedium);
 		GameRegistry.addRecipe(new ItemStack(itemObsidianIngot, 9), "D", "O", 'D', itemEtherealDivisor, 'O', Blocks.obsidian);
