@@ -13,4 +13,5 @@
 <fullyQualifiedTypeName name="net.minecraft.init.Blocks"/>
 <fullyQualifiedTypeName name="net.minecraft.init.Items"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item.ToolMaterial"/>
 </qualifiedTypeNameHistroy>

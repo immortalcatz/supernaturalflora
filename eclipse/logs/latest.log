@@ -1,12 +1,40 @@
-[19:55:23] [main/INFO]: Setting user: Player979
-[19:55:29] [Client thread/INFO]: LWJGL Version: 2.9.1
-[19:55:31] [Client thread/ERROR]: Couldn't initialize twitch stream
-[19:55:52] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Supernatural Flora
-[19:55:54] [Sound Library Loader/INFO]: Sound engine started
-[19:56:00] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[19:56:01] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[19:56:02] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Supernatural Flora
-[19:56:03] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[19:56:03] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[19:56:04] [Sound Library Loader/INFO]: Sound engine started
-[19:56:34] [Client thread/INFO]: Stopping!
+[20:59:56] [main/INFO]: Setting user: Player884
+[21:00:05] [Client thread/INFO]: LWJGL Version: 2.9.1
+[21:00:07] [Client thread/ERROR]: Couldn't initialize twitch stream
+[21:00:29] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Supernatural Flora
+[21:00:32] [Sound Library Loader/INFO]: Sound engine started
+[21:00:38] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[21:00:39] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[21:00:40] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Supernatural Flora
+[21:00:42] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[21:00:42] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[21:00:43] [Sound Library Loader/INFO]: Sound engine started
+[21:01:10] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[21:01:10] [Server thread/INFO]: Generating keypair
+[21:01:14] [Server thread/INFO]: Preparing start region for level 0
+[21:01:15] [Server thread/INFO]: Preparing spawn area: 8%
+[21:01:16] [Server thread/INFO]: Preparing spawn area: 22%
+[21:01:17] [Server thread/INFO]: Preparing spawn area: 31%
+[21:01:18] [Server thread/INFO]: Preparing spawn area: 53%
+[21:01:19] [Server thread/INFO]: Preparing spawn area: 74%
+[21:01:21] [Server thread/INFO]: Changing view distance to 2, from 10
+[21:01:23] [Server thread/INFO]: Player884[local:E:0527ef07] logged in with entity id 128 at (-5.392244031955667, 69.0, 263.9950705950597)
+[21:01:23] [Server thread/INFO]: Player884 joined the game
+[21:01:27] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6022ms behind, skipping 120 tick(s)
+[21:01:35] [Server thread/INFO]: Player884 has just earned the achievement [Taking Inventory]
+[21:01:35] [Client thread/INFO]: [CHAT] Player884 has just earned the achievement [Taking Inventory]
+[21:01:58] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2344ms behind, skipping 46 tick(s)
+[21:02:43] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 26472ms behind, skipping 529 tick(s)
+[21:02:46] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2396ms behind, skipping 47 tick(s)
+[21:03:02] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2643ms behind, skipping 52 tick(s)
+[21:06:09] [Server thread/INFO]: Saving and pausing game...
+[21:06:09] [Server thread/INFO]: Saving chunks for level 'The Lab'/Overworld
+[21:06:09] [Server thread/INFO]: Saving chunks for level 'The Lab'/Nether
+[21:06:09] [Server thread/INFO]: Saving chunks for level 'The Lab'/The End
+[21:06:10] [Server thread/INFO]: Stopping server
+[21:06:10] [Server thread/INFO]: Saving players
+[21:06:10] [Server thread/INFO]: Saving worlds
+[21:06:10] [Server thread/INFO]: Saving chunks for level 'The Lab'/Overworld
+[21:06:10] [Server thread/INFO]: Saving chunks for level 'The Lab'/Nether
+[21:06:10] [Server thread/INFO]: Saving chunks for level 'The Lab'/The End
+[21:06:12] [Client thread/INFO]: Stopping!

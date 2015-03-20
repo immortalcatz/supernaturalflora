@@ -43,6 +43,8 @@ public class SupernaturalFlora {
 	public static Item itemEtherRaw;
 	public static Item itemACatalyst;
 	public static Item itemTest;
+	public static Item itemAquisRaw;
+	public static Item itemAquisOrb;
 
 	
 	//block vars
@@ -82,6 +84,8 @@ public class SupernaturalFlora {
 		itemEtherRaw = new ItemEtherRaw().setUnlocalizedName("ItemEtherRaw").setTextureName("snf:itemetherraw").setCreativeTab(tabSupernaturalFlora);
 		itemACatalyst = new ItemACatalyst().setUnlocalizedName("ItemACatalyst").setTextureName("snf:itemacatalyst").setCreativeTab(tabSupernaturalFlora);
 		itemTest = new ItemTest().setUnlocalizedName("ItemTest").setTextureName("snf:gandalf99").setCreativeTab(tabSupernaturalFlora);
+		itemAquisRaw = new ItemAquisRaw().setUnlocalizedName("ItemAquisRaw").setTextureName("snf:itemaquisraw").setCreativeTab(tabSupernaturalFlora);
+		itemAquisOrb = new ItemAquisOrb().setUnlocalizedName("ItemAquisOrb").setTextureName("snf:itemaquisorb").setCreativeTab(tabSupernaturalFlora);
 		//block init
 		blockGraveyardSoil = new BlockGraveyardSoil(Material.grass).setBlockName("BlockGraveyardSoil").setBlockTextureName("snf:blockgraveyardsoil").setCreativeTab(tabSupernaturalFlora);
 		blockDeadSoilCreeper = new BlockDeadSoilCreeper(Material.grass).setBlockName("BlockDeadSoilCreeper").setBlockTextureName("snf:blockdeadsoilcreeper").setCreativeTab(tabSupernaturalFlora);
@@ -115,6 +119,8 @@ public class SupernaturalFlora {
 		GameRegistry.registerItem(itemEtherRaw, itemEtherRaw.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(itemACatalyst, itemACatalyst.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(itemEtherOrb, itemEtherOrb.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(itemAquisRaw, itemAquisRaw.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(itemAquisOrb, itemAquisOrb.getUnlocalizedName().substring(5));
 		//block registry
 		GameRegistry.registerBlock(blockGraveyardSoil, blockGraveyardSoil.getUnlocalizedName().substring(5));
 		GameRegistry.registerBlock(blockDeadSoilCreeper, blockDeadSoilCreeper.getUnlocalizedName().substring(5));
@@ -161,6 +167,8 @@ public class SupernaturalFlora {
 		GameRegistry.addRecipe(new ItemStack(itemEtherRaw, 16), "LDS", 'L', Blocks.lapis_block, 'D', Items.diamond, 'S', itemEtherealDivisor);
 		GameRegistry.addRecipe(new ItemStack(itemACatalyst, 8), "DDM", " S ", 'D', Items.diamond, 'M', itemSoulMedium, 'S', itemEtherealDivisor);
 		GameRegistry.addRecipe(new ItemStack(itemEtherOrb, 6), "OEE", " C ", 'O', itemOrb, 'E', itemEtherRaw, 'C', itemACatalyst);
+		GameRegistry.addRecipe(new ItemStack(itemAquisRaw, 16), "WDS", 'W', Items.water_bucket, 'D', Items.diamond, 'S', itemEtherealDivisor);
+		GameRegistry.addRecipe(new ItemStack(itemAquisOrb, 6), "OAA", " C ", 'O', itemOrb, 'A', itemAquisRaw, 'C', itemACatalyst);
 		//blocks
 		GameRegistry.addRecipe(new ItemStack(blockDeadSoilEnderman, 5), "EGS", " M ", "   ", 'E', itemEndSight, 'G', blockGraveyardSoil, 'S', itemLifePotion, 'M', itemSoulMedium);
 		GameRegistry.addRecipe(new ItemStack(blockDeadSoilGhast, 5), "EGS", " M ", "   ", 'E', itemTearVial, 'G', blockGraveyardSoil, 'S', itemLifePotion, 'M', itemSoulMedium);
