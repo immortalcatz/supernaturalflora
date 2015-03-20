@@ -1,0 +1,16 @@
+[
+{
+  "modid": "snf",
+  "name": "Supernatural Flora",
+  "description": "This is a mod created by Cestaberous that focuses on the manipulation of everyday items with supernatural forces.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Cestaberous"],
+  "credits": "Thanks to MrCrayfish for the amazing tutorial.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

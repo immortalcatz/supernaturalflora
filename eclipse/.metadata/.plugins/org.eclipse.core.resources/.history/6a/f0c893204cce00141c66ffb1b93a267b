@@ -1,8 +1,0 @@
-package gq.cestaberous.supernaturalflora;
-
-import cpw.mods.fml.common.Mod;
-
-@Mod(modid = "snf", name = "Supernatural Flora", version = "1.0")
-public class SupernaturalFlora {
-
-}
