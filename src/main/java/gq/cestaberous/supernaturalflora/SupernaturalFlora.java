@@ -1,5 +1,6 @@
 package gq.cestaberous.supernaturalflora;
 
+import gq.cestaberous.supernaturalflora.item.Gandalf99Sword;
 import gq.cestaberous.supernaturalflora.test.ItemTest;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -8,6 +9,7 @@ import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.common.util.EnumHelper;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -34,7 +36,6 @@ public class SupernaturalFlora {
 	public static Item itemSiftingNet;
 	public static Item itemSoulMedium;
 	public static Item itemLifePotion;
-	public static Item itemgandalf99;
 	public static Item itemEtherealDivisor;
 	public static Item itemIronShard;
 	public static Item itemObsidianIngot;
@@ -45,6 +46,9 @@ public class SupernaturalFlora {
 	public static Item itemTest;
 	public static Item itemAquisRaw;
 	public static Item itemAquisOrb;
+	public static Item gandalf99Sword;
+	public static Item itemIgnisRaw;
+	public static Item itemIgnisOrb;
 
 	
 	//block vars
@@ -56,6 +60,8 @@ public class SupernaturalFlora {
 	public static Block blockDeadSoilEnderman;
 	public static Block blockDeadSoilGhast;
 	
+	//toolmat
+	public static final Item.ToolMaterial gandalf99Tool = EnumHelper.addToolMaterial("gandalf99Tool", 20, 500000, 100.0F, 18500000.0F, 40);
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event){
 		//block and item registry and init; Furnace recipes
@@ -75,7 +81,7 @@ public class SupernaturalFlora {
 		itemSiftingNet = new ItemSiftingNet().setUnlocalizedName("ItemSiftingNet").setTextureName("snf:itemsiftingnet").setCreativeTab(tabSupernaturalFlora);
 		itemSoulMedium = new ItemSoulMedium().setUnlocalizedName("ItemSoulMedium").setTextureName("snf:itemsoulmedium").setCreativeTab(tabSupernaturalFlora);
 		itemLifePotion = new ItemLifePotion().setUnlocalizedName("ItemLifePotion").setTextureName("snf:itemlifepotion").setCreativeTab(tabSupernaturalFlora);
-		itemgandalf99 = new ItemGandalf99().setUnlocalizedName("ItemGandalf99").setTextureName("snf:itemgandalf99").setCreativeTab(tabSupernaturalFlora);
+		gandalf99Sword = new Gandalf99Sword(gandalf99Tool).setUnlocalizedName("Gandalf99Sword").setTextureName("snf:gandalf99sword").setCreativeTab(tabSupernaturalFlora);
 		itemEtherealDivisor = new ItemEtherealDivisor().setUnlocalizedName("ItemEtherealDivisor").setTextureName("snf:itemetherealdivisor").setCreativeTab(tabSupernaturalFlora);
 		itemIronShard = new ItemIronShard().setUnlocalizedName("ItemIronShard").setTextureName("snf:itemironshard").setCreativeTab(tabSupernaturalFlora);
 		itemObsidianIngot = new ItemObsidianIngot().setUnlocalizedName("ItemObsidianIngot").setTextureName("snf:itemobsidianingot").setCreativeTab(tabSupernaturalFlora);
@@ -86,6 +92,9 @@ public class SupernaturalFlora {
 		itemTest = new ItemTest().setUnlocalizedName("ItemTest").setTextureName("snf:gandalf99").setCreativeTab(tabSupernaturalFlora);
 		itemAquisRaw = new ItemAquisRaw().setUnlocalizedName("ItemAquisRaw").setTextureName("snf:itemaquisraw").setCreativeTab(tabSupernaturalFlora);
 		itemAquisOrb = new ItemAquisOrb().setUnlocalizedName("ItemAquisOrb").setTextureName("snf:itemaquisorb").setCreativeTab(tabSupernaturalFlora);
+		itemIgnisRaw = new ItemIgnisRaw().setUnlocalizedName("ItemIgnisRaw").setTextureName("snf:itemignisraw").setCreativeTab(tabSupernaturalFlora);
+		itemIgnisOrb = new ItemIgnisOrb().setUnlocalizedName("ItemIgnisOrb").setTextureName("snf:itemignisorb").setCreativeTab(tabSupernaturalFlora);
+		
 		//block init
 		blockGraveyardSoil = new BlockGraveyardSoil(Material.grass).setBlockName("BlockGraveyardSoil").setBlockTextureName("snf:blockgraveyardsoil").setCreativeTab(tabSupernaturalFlora);
 		blockDeadSoilCreeper = new BlockDeadSoilCreeper(Material.grass).setBlockName("BlockDeadSoilCreeper").setBlockTextureName("snf:blockdeadsoilcreeper").setCreativeTab(tabSupernaturalFlora);
@@ -111,7 +120,7 @@ public class SupernaturalFlora {
 		GameRegistry.registerItem(itemSiftingNet, itemSiftingNet.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(itemSoulMedium, itemSoulMedium.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(itemLifePotion, itemLifePotion.getUnlocalizedName().substring(5));
-		GameRegistry.registerItem(itemgandalf99, itemgandalf99.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(gandalf99Sword, gandalf99Sword.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(itemEtherealDivisor, itemEtherealDivisor.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(itemIronShard, itemIronShard.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(itemObsidianIngot, itemObsidianIngot.getUnlocalizedName().substring(5));
@@ -121,6 +130,8 @@ public class SupernaturalFlora {
 		GameRegistry.registerItem(itemEtherOrb, itemEtherOrb.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(itemAquisRaw, itemAquisRaw.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(itemAquisOrb, itemAquisOrb.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(itemIgnisRaw, itemIgnisRaw.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(itemIgnisOrb, itemIgnisOrb.getUnlocalizedName().substring(5));
 		//block registry
 		GameRegistry.registerBlock(blockGraveyardSoil, blockGraveyardSoil.getUnlocalizedName().substring(5));
 		GameRegistry.registerBlock(blockDeadSoilCreeper, blockDeadSoilCreeper.getUnlocalizedName().substring(5));
@@ -169,6 +180,8 @@ public class SupernaturalFlora {
 		GameRegistry.addRecipe(new ItemStack(itemEtherOrb, 6), "OEE", " C ", 'O', itemOrb, 'E', itemEtherRaw, 'C', itemACatalyst);
 		GameRegistry.addRecipe(new ItemStack(itemAquisRaw, 16), "WDS", 'W', Items.water_bucket, 'D', Items.diamond, 'S', itemEtherealDivisor);
 		GameRegistry.addRecipe(new ItemStack(itemAquisOrb, 6), "OAA", " C ", 'O', itemOrb, 'A', itemAquisRaw, 'C', itemACatalyst);
+		GameRegistry.addRecipe(new ItemStack(itemIgnisRaw, 16), "BDS", 'B', Items.blaze_rod, 'D', Items.diamond, 'S', itemEtherealDivisor);
+		GameRegistry.addRecipe(new ItemStack(itemIgnisOrb, 6), "OII", " C ", 'O', itemOrb, 'I', itemIgnisRaw, 'C', itemACatalyst);
 		//blocks
 		GameRegistry.addRecipe(new ItemStack(blockDeadSoilEnderman, 5), "EGS", " M ", "   ", 'E', itemEndSight, 'G', blockGraveyardSoil, 'S', itemLifePotion, 'M', itemSoulMedium);
 		GameRegistry.addRecipe(new ItemStack(blockDeadSoilGhast, 5), "EGS", " M ", "   ", 'E', itemTearVial, 'G', blockGraveyardSoil, 'S', itemLifePotion, 'M', itemSoulMedium);
