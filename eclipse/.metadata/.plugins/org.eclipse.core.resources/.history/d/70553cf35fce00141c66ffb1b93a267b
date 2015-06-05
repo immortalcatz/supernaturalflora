@@ -1,0 +1,7 @@
+package gq.cestaberous.supernaturalflora;
+
+import net.minecraft.block.Block;
+
+public class BlockDeadSoilGhast extends Block {
+
+}

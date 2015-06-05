@@ -1,0 +1,7 @@
+package gq.cestaberous.supernaturalflora.item;
+
+import net.minecraft.item.Item;
+
+public class Gandalf99Sword extends Item {
+
+}

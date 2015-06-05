@@ -12,7 +12,11 @@
 		<link>
 			<name>.link0</name>
 			<type>2</type>
+<<<<<<< HEAD
 			<location>/home/garrett/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.3.1428-1.7.10/start</location>
+=======
+			<location>/home/krios/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1291/start</location>
+>>>>>>> e3b5f5f77f61b7a685fc1fc9109f8de395ab933d
 		</link>
 	</linkedResources>
 </projectDescription>

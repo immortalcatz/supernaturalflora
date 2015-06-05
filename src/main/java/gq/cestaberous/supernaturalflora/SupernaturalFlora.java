@@ -94,7 +94,11 @@ public class SupernaturalFlora {
 		itemAquisOrb = new ItemAquisOrb().setUnlocalizedName("ItemAquisOrb").setTextureName("snf:itemaquisorb").setCreativeTab(tabSupernaturalFlora);
 		itemIgnisRaw = new ItemIgnisRaw().setUnlocalizedName("ItemIgnisRaw").setTextureName("snf:itemignisraw").setCreativeTab(tabSupernaturalFlora);
 		itemIgnisOrb = new ItemIgnisOrb().setUnlocalizedName("ItemIgnisOrb").setTextureName("snf:itemignisorb").setCreativeTab(tabSupernaturalFlora);
+<<<<<<< HEAD
 				
+=======
+		
+>>>>>>> e3b5f5f77f61b7a685fc1fc9109f8de395ab933d
 		//block init
 		blockGraveyardSoil = new BlockGraveyardSoil(Material.grass).setBlockName("BlockGraveyardSoil").setBlockTextureName("snf:blockgraveyardsoil").setCreativeTab(tabSupernaturalFlora);
 		blockDeadSoilCreeper = new BlockDeadSoilCreeper(Material.grass).setBlockName("BlockDeadSoilCreeper").setBlockTextureName("snf:blockdeadsoilcreeper").setCreativeTab(tabSupernaturalFlora);

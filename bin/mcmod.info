@@ -6,9 +6,15 @@
   "version": "1.2",
   "mcversion": "1.7.10",
   "url": "http://github.com/cestaberous/supernaturalflora",
+<<<<<<< HEAD
   "updateUrl": "http://cestaberous.gq/mods/snf/downloads/",
   "authorList": ["Cestaberous"],
   "credits": "Cestaberous; Help from gandalf99",
+=======
+  "updateUrl": "",
+  "authorList": ["Cestaberous"],
+  "credits": "Thanks to MrCrayfish for the amazing tutorial.",
+>>>>>>> e3b5f5f77f61b7a685fc1fc9109f8de395ab933d
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
