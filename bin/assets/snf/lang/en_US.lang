@@ -1,0 +1,45 @@
+item.ItemEndSight.name=Sight Of End
+item.ItemTearVial.name=Tear Vial
+item.ItemCondensedFlesh.name=Condensed Flesh
+item.ItemPureGunpowder.name=Pure Gunpowder
+item.ItemBonePile.name=Bone Pile
+tile.BlockGraveyardSoil.name=Graveyard Soil
+item.ItemAwakeningCreeper.name=Serum of Volatility
+item.ItemAwakeningZombie.name=Serum of the Undead
+item.ItemAwakeningSkeleton.name=Serum of the Projectile
+item.ItemFireEssence.name=Essence of Fire
+item.ItemAwakeningBlaze.name=Serum of the Flame
+item.ItemAwakeningGhast.name=Serum of Eternal Tears
+item.ItemAwakeningEnderman.name=Serum of Dimensionality
+
+tile.BlockDeadSoilCreeper.name=Soil of the Dead - Creeper
+tile.BlockDeadSoilZombie.name=Soil of the Dead - Zombie
+tile.BlockDeadSoilSkeleton.name=Soil of the Dead - Skeleton
+tile.BlockDeadSoilBlaze.name=Soil of the Dead - Blaze
+tile.BlockDeadSoilEnderman.name=Soil of the Dead - Enderman
+tile.BlockDeadSoilGhast.name=Soil of the Dead - Ghast
+
+item.ItemSiftingNet.name=Sifting Net
+
+itemGroup.tabSupernaturalFlora=Supernatural Flora
+
+item.ItemSoulMedium.name=Soul Medium
+item.ItemLifePotion.name=Essence of the Spark
+item.ItemGandalf99.name=gandalf99 [WIP]
+item.ItemEtherealDivisor.name=Ethereal Divisor
+item.ItemIronShard.name=Iron Shard
+item.ItemObsidianIngot.name=Obsidian Ingot
+
+item.ItemOrb.name=Empty Orb
+
+item.ItemEtherOrb.name=Orb of Ether
+item.ItemEtherRaw.name=Raw Ether
+
+item.ItemACatalyst.name=Alchemical Catalyst
+item.Gandalf99Sword.name=Sword of gandalf99 [WIP]
+
+item.ItemIgnisRaw.name=Raw Ignis
+item.ItemIgnisOrb.name=Orb of Ignis
+
+item.ItemAquisRaw.name=Raw Aquis
+item.ItemAquisOrb.name=Orb of Aquis
